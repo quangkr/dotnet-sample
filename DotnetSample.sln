@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetSampleApi", "dotnet-sample-api\DotnetSampleApi.csproj", "{94C29B0C-F99D-4E0C-9F88-43BC250ACCB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetSampleSignalR", "dotnet-sample-signalr\DotnetSampleSignalR.csproj", "{F604E636-37F3-4B64-8437-18D973185BBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{94C29B0C-F99D-4E0C-9F88-43BC250ACCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94C29B0C-F99D-4E0C-9F88-43BC250ACCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94C29B0C-F99D-4E0C-9F88-43BC250ACCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F604E636-37F3-4B64-8437-18D973185BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F604E636-37F3-4B64-8437-18D973185BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F604E636-37F3-4B64-8437-18D973185BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F604E636-37F3-4B64-8437-18D973185BBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
