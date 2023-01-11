@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -12,7 +13,7 @@ export default function Home() {
     const [message, setMessage] = useState('');
     const [sendError, setSendError] = useState('');
     const [btnDisabled, setBtnDisabled] = useState(false);
-    const [receivedMessages, setReceivedMessages] = useState([]);
+    const [receivedMessages, setReceivedMessages] = useState<string[]>([]);
 
     const hubConnection = new HubConnectionBuilder()
         .withUrl("http://localhost:5022/chathub")
