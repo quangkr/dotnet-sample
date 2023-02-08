@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetSampleApi", "dotnet-s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetSampleSignalR", "dotnet-sample-signalr\DotnetSampleSignalR.csproj", "{F604E636-37F3-4B64-8437-18D973185BBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qibrary", "qibrary\qibrary.csproj", "{8D3A1070-BA66-4A54-AA9E-BA5F0483C263}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F604E636-37F3-4B64-8437-18D973185BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F604E636-37F3-4B64-8437-18D973185BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F604E636-37F3-4B64-8437-18D973185BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3A1070-BA66-4A54-AA9E-BA5F0483C263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3A1070-BA66-4A54-AA9E-BA5F0483C263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3A1070-BA66-4A54-AA9E-BA5F0483C263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3A1070-BA66-4A54-AA9E-BA5F0483C263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
